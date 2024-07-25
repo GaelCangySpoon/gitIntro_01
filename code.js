@@ -4,15 +4,13 @@
  * @returns {number[]} - An array of squared numbers
  */
 function calculateSquares(numbersArray) {
-    // Check if the input is an array
-    if (!Array.isArray(numbersArray) ||typeof numbersArray == 'object') {
-        throw new Error('Input must be an array or object');
-    }
+    test
+    console.log('new change in code')
 
     // Use map to create a new array with the squares of the numbers
     const squaredArray = numbersArray.map(number => {
         // Check if the element is a number
-        if (typeof number !== 'number' && typeof number !== 'string') {
+        if (typeof number !== 'number') {
             throw new Error('Array must contain only numbers');
         }
         return number * number;
