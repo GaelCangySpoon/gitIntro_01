@@ -15,8 +15,12 @@ function calculateSquares(numbersArray) {
         }
         return number * number;
     });
+    console.log('cat')
 
     return squaredArray;
+
+
+    console.log('potato')
 }
 
 // Example usage
