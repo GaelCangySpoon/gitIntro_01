@@ -4,10 +4,15 @@
  * @returns {number[]} - An array of squared numbers
  */
 function calculateSquares(numbersArray) {
+<<<<<<< HEAD
+    test
+    console.log('new change in code')
+=======
     // Check if the input is an array
     if (!Array.isArray(numbersArray)) {
         throw new Error('Input must be an array');
     }
+>>>>>>> main
 
     // Use map to create a new array with the squares of the numbers
     const squaredArray = numbersArray.map(number => {
@@ -17,8 +22,17 @@ function calculateSquares(numbersArray) {
         }
         return number * number;
     });
+<<<<<<< HEAD
+    console.log('cat')
 
     return squaredArray;
+
+
+    console.log('potato')
+=======
+
+    return squaredArray;
+>>>>>>> main
 }
 
 // Example usage
